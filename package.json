@@ -1,0 +1,14 @@
+{
+  "name": "request-dump-express",
+  "version": "1.0.0",
+  "description": "A simple, stupid requesthandler to print out request relevant information for a specified endpoint. Needed when you do not know how your request is modified during its way, and you have no way to debug otherwise.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Katzorke <ckatzorke@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
