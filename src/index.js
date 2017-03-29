@@ -3,7 +3,9 @@ var app = express();
 
 app.get('/requestdump', function (req, res) {
   res.send({
-    headers: req.headers
+    "headers": req.headers,
+    "method": req.method,
+    "secure": req.secure
   });
 });
 
