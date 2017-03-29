@@ -2,7 +2,7 @@
   "name": "request-dump-express",
   "version": "1.0.0",
   "description": "A simple, stupid requesthandler to print out request relevant information for a specified endpoint. Needed when you do not know how your request is modified during its way, and you have no way to debug otherwise.",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
